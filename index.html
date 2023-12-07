@@ -5,8 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
 </head>
 <body>
+
+    <header class="bg-opacity-75">
+        <nav class="fixed-top navbar navbar-expand-lg bg-dark  bg-opacity-75 " id="navbar">
+            <div class=" container-fluid d-flex justify-content-around">
+              <a class="navbar-brand ps-15 text-white opacity-100 fs-1" href="#">CBIENBON</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-center " id="navbarNav">
+                <ul class="navbar-nav gap-4">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-orange fs-5 " href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white navhover fs-5" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white navhover fs-5" href="#">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white navhover fs-5" href="#">Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white navhover fs-5" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white navhover fs-5" href="#">Chefs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white navhover fs-5" href="#">Contact</a>
+                  </li>
+                  
+                </ul>
+                
+              </div>
+              <button type="button" class="btn text-white  rounded-5 fs-5" id="navbtn">BOOK A TABLE</button>
+            </div>
+          </nav>
+
+          <div class="container-fluid  h-100 w-100 d-flex align-items-center">
+
+            <div class="h-75 w-50 d-flex  flex-column justify-content-center fs-4 " id="headerL">
+                <h1 class="text-white p-0 m-0 display-3 fw-bold " id="h1header">Welcome to <span class="text-orange">CBIENBON</span></h1> 
+                <p id="pheader" class="text-white p-0 m-0 fs-3">Delivering great food for more than 18 years!</p>
+                <div class="container-fluid w-100" id="divbtn">
+                    <br><button class="btnheadL fs-5 text-white rounded-5">OUR MENU</button> <button id="btnheadR" class="btnheadL text-white rounded-5">BOOK A TABLE</button>
+                </div>
+            </div>
+
+            <div class="h-75 w-50 d-flex align-items-center justify-content-center">
+                <!-- Le bouton (attention, retirer le « bs » pour la version Bootstrap 4 : <code>data-toggle</code> et <code>data-target</code>) -->
+
+<button type="button" class="btn rounded-circle bg-orange d-flex align-items-center justify-content-center" id="btnmodal" data-bs-toggle="modal" data-bs-target="#oModalYouTube">
+    <i class="d-flex align-items-center justify-content-center fa-sharp fa-solid fa-play fs-3" id="fontmodal" style="color: #ffffff;"></i>
+  </button>
+  
+  <!-- La modale -->
+  
+  <div class="modal fade bd-example-modal-lg" id="oModalYouTube" tabindex="-1" aria-labelledby="oModalYouTubeTitre" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered pt-19 modal-xl">
+      <div class="" id="contentmodal">
+        <div class="modal-header">
+          
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+        </div>
+        <div class="modal-body">
+          <div id="" class="ratio ratio-16x9 ">
+            <iframe   src="https://www.youtube.com/embed/08iYegUVmUo" title="Acid Division live @ Totemystik Festival - 29.31/07/2016 - Beaucaire" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+
+          </div>
+
+
+    </header>
+    <section id="section1" class="d-flex">
+
+        <div class="h-100 w-50 d-flex  flex-column justify-content-center text-white text-start">
+            <h5 class="fs-2 ps-17">Voluptated dignissimos provident quasi corporis <br>
+            voluptates sit assumenda.</h5>
+            <p class="fs-5 ps-17"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br>
+            ut labore et dolore magna aliqua.</i></p>
+            <ul class="ps-17">
+                <li class="sec1li fs-5"><i class="fa-regular fa-circle-check fs-3" style="color: #c59953;"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li><br>
+                <li class="sec1li fs-5"><i class="fa-regular fa-circle-check fs-3" style="color: #c59953;"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li><br>
+                <li class="sec1li fs-5"><i class="fa-regular fa-circle-check fs-3" style="color: #c59953;"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br>
+                reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla <br>
+            pariatur.</li><br>
+            </ul>
+            <p class="fs-5 ps-17 pb-17">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br>
+            reprehendit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur <br>
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id <br>
+        est laborum</p>
+        </div>
+
+        <div class="h-100 w-50"></div>
+
+    </section>
     
 
 
