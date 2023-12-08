@@ -18071,4 +18071,32 @@ header {
   padding-bottom: 40px;
 }
 
+#section3 {
+  width: 100%;
+  height: 1168px;
+  background: #1A1814;
+}
+
+#section4 {
+  width: 100%;
+  height: 930px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/events-bg.jpg);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+#section4 .titresec4 {
+  width: 90%;
+}
+#section4 #divforcarousel {
+  width: 90%;
+  height: 70%;
+  background: red;
+}
+
+#carouselsize {
+  height: 1000px !important;
+}
+
 /*# sourceMappingURL=style.css.map */
