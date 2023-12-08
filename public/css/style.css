@@ -18108,8 +18108,42 @@ header {
 
 #section5 {
   width: 100%;
-  height: 733px;
-  background: red;
+  height: 738px;
+  background: #0B0B09;
+}
+
+#divformsec5 {
+  height: 55%;
+  width: 93%;
+}
+
+#BookaTable {
+  height: 9%;
+  width: 12%;
+}
+
+.textsec5 {
+  width: 90%;
+}
+
+#topform {
+  width: 100%;
+  height: 38%;
+}
+
+#bottomform {
+  width: 100%;
+  height: 62%;
+}
+
+.formtop {
+  width: 31%;
+  height: 40%;
+  border: 1px solid #443F34 !important;
+}
+
+#textareaform {
+  border: 1px solid #443F34 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
