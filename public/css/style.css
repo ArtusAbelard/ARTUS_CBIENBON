@@ -18172,4 +18172,22 @@ header {
   transform: scale(1.1);
 }
 
+#section7 {
+  width: 100%;
+  height: 800px;
+  background: red;
+}
+
+#section8 {
+  width: 100%;
+  height: 1352px;
+  background: blue;
+}
+
+#footerartus {
+  width: 100%;
+  height: 570px;
+  background: red;
+}
+
 /*# sourceMappingURL=style.css.map */
