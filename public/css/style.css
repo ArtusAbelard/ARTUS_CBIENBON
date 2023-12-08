@@ -18146,4 +18146,24 @@ header {
   border: 1px solid #443F34 !important;
 }
 
+#section6 {
+  width: 100%;
+  height: 1050px;
+  background: red;
+}
+#section6 .textsec6 {
+  width: 89%;
+}
+#section6 #divsec6 {
+  width: 97%;
+  height: 69%;
+  background: yellow;
+}
+#section6 #divsec6 .divimg {
+  height: 50%;
+  width: 25%;
+  background: blue;
+  border: 1px solid red;
+}
+
 /*# sourceMappingURL=style.css.map */
