@@ -18092,11 +18092,24 @@ header {
 #section4 #divforcarousel {
   width: 90%;
   height: 70%;
-  background: red;
+}
+
+.nonepuces {
+  list-style-type: none;
 }
 
 #carouselsize {
   height: 1000px !important;
+}
+
+.btncarousel {
+  transform: scale(0.6) !important;
+}
+
+#section5 {
+  width: 100%;
+  height: 733px;
+  background: red;
 }
 
 /*# sourceMappingURL=style.css.map */
