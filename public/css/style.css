@@ -22308,4 +22308,51 @@ header {
   background: yellow;
 }
 
+.footertop {
+  width: 100%;
+  height: 100%;
+  background: red;
+  border-top: 1px soild #35332A;
+}
+
+#footerbottom {
+  background: yellow;
+  height: 23%;
+}
+
+#footerrealtop {
+  width: 100%;
+  height: 82% !important;
+  background: purple;
+}
+
+#formfooter {
+  width: 30%;
+  background: green;
+}
+
+#leftsidefooter {
+  height: 95%;
+  width: 22%;
+  background: blue;
+}
+
+.logosocialfooter {
+  height: 14%;
+  width: 71%;
+  background: green;
+  margin-left: 18%;
+}
+
+.logoindivfooter {
+  height: 100%;
+  width: 19%;
+  background: #27251F;
+}
+
+.fonttaille {
+  font-size: small;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
