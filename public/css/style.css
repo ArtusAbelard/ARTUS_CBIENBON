@@ -18222,6 +18222,10 @@ header {
   width: 100%;
 }
 
+.hovermedia:hover {
+  color: #D5A24F !important;
+}
+
 .txtcontenu {
   position: absolute;
   left: 0;
