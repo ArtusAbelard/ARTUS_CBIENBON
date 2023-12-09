@@ -18189,6 +18189,36 @@ header {
   width: 32%;
 }
 
+#imgleftsec7 {
+  background-image: url(../img/chefs/chefs-1.jpg);
+}
+
+#imgcentersec7 {
+  background-image: url(../img/chefs/chefs-2.jpg);
+}
+
+#imgrightsec7 {
+  background-image: url(../img/chefs/chefs-3.jpg);
+}
+
+#imgleftsec7:hover .opacitysec7 {
+  background-image: linear-gradient(rgba(255, 0, 0, 0), #000000);
+  height: 100%;
+  width: 100%;
+}
+
+#imgcentersec7:hover .opacitysec7 {
+  background-image: linear-gradient(rgba(255, 0, 0, 0), #000000);
+  height: 100%;
+  width: 100%;
+}
+
+#imgrightsec7:hover .opacitysec7 {
+  background-image: linear-gradient(rgba(255, 0, 0, 0), #000000);
+  height: 100%;
+  width: 100%;
+}
+
 #section8 {
   width: 100%;
   height: 1352px;

@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      #grad1 {
+        height: 800px;
+        
+        background-image: linear-gradient(rgba(255,0,0,0), rgba(255,0,0,1));
+      }
+      </style>
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
 </head>
@@ -301,9 +308,15 @@
       <h6 class="text-white text-start fs-4 textsec7">CHEFS</h6>
       <h2 class="text-orange fw-bold display-5 text-start pb-8 textsec7">Our Proffesional Chefs</h2>
       <div id="div3img" class="d-flex align-items-center justify-content-between">
-        <div class="imgindivsec7"><img src="./public/img/chefs/chefs-1.jpg" height="100%"></div>
-        <div class="imgindivsec7"><img src="./public/img/chefs/chefs-2.jpg" height="100%" alt=""></div>
-        <div class="imgindivsec7"><img src="./public/img/chefs/chefs-3.jpg" height="100%" alt=""></div>
+        <div class="imgindivsec7" id="imgleftsec7">
+          <div class="opacitysec7"></div>
+        </div>
+        <div class="imgindivsec7" id="imgcentersec7">
+          <div class="opacitysec7"></div>
+        </div>
+        <div class="imgindivsec7" id="imgrightsec7">
+          <div class="opacitysec7"></div>
+        </div>
       </div>
     </section>
     <section id="section8">
