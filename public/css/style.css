@@ -18190,7 +18190,10 @@ header {
 }
 
 #imgleftsec7 {
-  background-image: url(../img/chefs/chefs-1.jpg);
+  background-image: url(../img/chefs/walter\ white\ the\ real\ one.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #imgcentersec7 {
@@ -18202,7 +18205,7 @@ header {
 }
 
 #imgleftsec7:hover .opacitysec7 {
-  background-image: linear-gradient(rgba(255, 0, 0, 0), #000000);
+  background-image: linear-gradient(rgba(255, 0, 0, 0), #121111);
   height: 100%;
   width: 100%;
 }
@@ -18217,6 +18220,41 @@ header {
   background-image: linear-gradient(rgba(255, 0, 0, 0), #000000);
   height: 100%;
   width: 100%;
+}
+
+.txtcontenu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.imgindivsec7:hover .txtcontenu {
+  opacity: 1;
+  position: relative;
+}
+
+.imgindivsec7:hover .lienssec7 {
+  display: flex;
+}
+
+.lienssec7 {
+  height: 10%;
+  width: 45%;
+  margin-bottom: 4%;
+  display: flex;
+  display: none;
+}
+
+.socialsec7 {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #section8 {
