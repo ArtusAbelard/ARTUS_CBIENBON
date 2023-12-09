@@ -22305,42 +22305,38 @@ header {
 #footerartus {
   width: 100%;
   height: 570px;
-  background: yellow;
+  background: #0B0B09;
 }
 
 .footertop {
   width: 100%;
   height: 100%;
-  background: red;
-  border-top: 1px soild #35332A;
+  border-top: 1px solid #35332A;
 }
 
 #footerbottom {
-  background: yellow;
+  border-top: 1px solid;
   height: 23%;
 }
 
 #footerrealtop {
   width: 100%;
   height: 82% !important;
-  background: purple;
+  background: #0D0B09;
 }
 
 #formfooter {
-  width: 30%;
-  background: green;
+  width: 36%;
 }
 
 #leftsidefooter {
   height: 95%;
   width: 22%;
-  background: blue;
 }
 
 .logosocialfooter {
   height: 14%;
   width: 71%;
-  background: green;
   margin-left: 18%;
 }
 
@@ -22353,6 +22349,28 @@ header {
 .fonttaille {
   font-size: small;
   text-align: center;
+}
+
+.btnfooter {
+  width: 28%;
+  z-index: 1;
+  height: 100%;
+}
+
+.txtournewsletter {
+  width: 82% !important;
+}
+
+.inputwithbtnfooter {
+  width: 75% !important;
+  display: flex;
+}
+
+#divwithbtn {
+  width: 82% !important;
+  background: #27251F;
+  height: 60px !important;
+  border: solid 2px #423D32;
 }
 
 /*# sourceMappingURL=style.css.map */
