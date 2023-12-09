@@ -22234,7 +22234,7 @@ header {
 #section8 {
   width: 100%;
   height: 1352px;
-  background: blue;
+  background: #0B0B09;
 }
 #section8 .textsec8 {
   width: 90%;
@@ -22242,13 +22242,43 @@ header {
 #section8 #formsec8 {
   width: 95%;
   height: 50%;
-  background: red;
+}
+#section8 #formsec8 #divleftsec8 {
+  width: 30%;
+  height: 100%;
+}
+#section8 #formsec8 #divrightsec8 {
+  width: 70%;
+  height: 100%;
+  background: grey;
+}
+
+.samediv {
+  height: 20%;
+  width: 90%;
+  border: 2px solid;
+}
+
+#grossediv {
+  height: 22%;
+  width: 90%;
+  border: 2px solid;
+}
+
+.logocircle {
+  height: 60px;
+  width: 60px;
+  background: #D5A24F;
+}
+
+.porangesec8 {
+  color: #BAB3A5;
 }
 
 #footerartus {
   width: 100%;
   height: 570px;
-  background: red;
+  background: yellow;
 }
 
 /*# sourceMappingURL=style.css.map */
