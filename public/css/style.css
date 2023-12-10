@@ -22068,7 +22068,7 @@ header {
 .menu_content {
   display: flex;
   align-items: center;
-  margin: 40px 0px;
+  width: 500px !important;
 }
 .menu_content img {
   width: 75px;
@@ -22085,6 +22085,14 @@ header {
 }
 .menu_content .menu_text p {
   color: #959595;
+}
+
+#bodynav {
+  width: 100%;
+}
+
+#myTabContent {
+  width: 100% !important;
 }
 
 #section4 {
@@ -22206,50 +22214,45 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
 }
 
 #imgcentersec7 {
   background-image: url(../img/chefs/chefs-2.jpg);
+  overflow: hidden;
 }
 
 #imgrightsec7 {
   background-image: url(../img/chefs/chefs-3.jpg);
+  overflow: hidden;
 }
 
 #imgleftsec7:hover .opacitysec7 {
-  background-image: linear-gradient(rgba(255, 0, 0, 0), #121111);
-  height: 100%;
-  width: 100%;
+  padding-top: 0px;
 }
 
 #imgcentersec7:hover .opacitysec7 {
-  background-image: linear-gradient(rgba(255, 0, 0, 0), #000000);
-  height: 100%;
-  width: 100%;
+  padding-top: 0px;
 }
 
 #imgrightsec7:hover .opacitysec7 {
-  background-image: linear-gradient(rgba(255, 0, 0, 0), #000000);
-  height: 100%;
-  width: 100%;
+  padding-top: 0px;
 }
 
 .hovermedia:hover {
   color: #D5A24F !important;
 }
 
-.txtcontenu {
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  transition: 0.5s;
-  z-index: 2;
+.opacitysec7 {
+  background-image: linear-gradient(rgba(255, 0, 0, 0), #000000);
+  height: 100%;
+  width: 100%;
+  padding-top: 1000px;
+  transition: 1.5s;
 }
 
 .imgindivsec7:hover .txtcontenu {
   opacity: 1;
-  position: relative;
 }
 
 .imgindivsec7:hover .lienssec7 {
@@ -22261,7 +22264,6 @@ header {
   width: 45%;
   margin-bottom: 4%;
   display: flex;
-  display: none;
 }
 
 .socialsec7 {
